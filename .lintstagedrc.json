@@ -1,0 +1,4 @@
+{
+  "{src,apps,libs,test}/**/*.ts": ["eslint --fix"],
+  "package.json": ["npx -y sort-package-json"]
+}
